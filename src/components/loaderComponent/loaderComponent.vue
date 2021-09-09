@@ -1,6 +1,9 @@
 <template>
   <div id="loaderComponent" v-if="visible">
-    <img src="../../assets/images/pokeball.svg" />
+    <img
+      class="animate__animated animate__bounce animate__infinite	animate__delay-2s "
+      src="../../assets/images/pokeball.svg"
+    />
   </div>
 </template>
 
@@ -20,4 +23,3 @@ export default {
 <style scoped>
 @import url("loaderComponent.scss");
 </style>
-
